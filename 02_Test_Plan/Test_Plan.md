@@ -1,45 +1,46 @@
-# 📋 Master Test Plan: Swag Labs
+# 📋 Test Plan: Swag Labs
 
-**Project:** Swag Labs E-commerce Website  
-**Version:** 1.0  
-**Author:** Manual QA Engineer  
+**Project:** Swag Labs Online Store
+**Version:** 1.0
+**Author:** Manual QA Engineer
 
 ---
 
 ## 1. Introduction
-The objective of this Test Plan is to define the scope, approach, and resources required for functional testing of the **Swag Labs** (SauceDemo) web application. The focus is on verifying core business flows for different user roles.
+The goal of this plan is to test the main functions of the **Swag Labs** (SauceDemo) website. I want to make sure that users can log in, choose products, and buy them without errors.
 
-## 2. Scope of Testing
+## 2. Scope (What to test)
 
-### ✅ In Scope 
-The following features will be tested functionally:
-1.  **Authentication:**
-    * Login with valid/invalid credentials.
-    * Login with locked-out users.
-    * Logout functionality.
-2.  **Inventory (Product Catalog):**
+### ✅ What I will test
+I will focus on these main features:
+
+1.  **Login / Logout:**
+    * Logging in with correct and wrong passwords.
+    * Checking what happens with blocked users.
+    * Logging out.
+2.  **Product List (Inventory):**
     * Viewing products.
-    * Sorting functionality (Name A-Z, Price Low-High).
-    * Adding/Removing items to Cart.
+    * Sorting items (by Price or Name).
+    * Adding and removing items from the Cart.
 3.  **Shopping Cart:**
-    * Verifying added items.
-    * "Continue Shopping" navigation.
-4.  **Checkout Process:**
-    * Information form validation (First Name, Last Name, Zip).
-    * Overview page verification (Item total + Tax calculation).
-    * Order completion ("Thank you" page).
+    * Checking if the correct items are in the cart.
+    * Button "Continue Shopping".
+4.  **Checkout (Buying):**
+    * Checking the form (First Name, Last Name, Zip Code).
+    * Checking the total price and tax.
+    * Finishing the order ("Thank you" page).
 
-### ❌ Out of Scope 
-* **Performance Testing:** Load and Stress testing are not part of this iteration.
-* **Security Testing:** SQL Injection or Penetration testing.
-* **API Testing:** Backend verification is out of scope for this manual run.
-* **Mobile App:** We are testing the responsive web version, not native mobile apps.
+### ❌ What I will NOT test
+* **Performance:** I am not checking how fast the site works under heavy load.
+* **Security:** I am not testing for hacking vulnerabilities (like SQL Injection).
+* **API:** I am testing only the User Interface (UI), not the backend code.
+* **Mobile App:** I am testing the website in the browser, not a mobile application.
 
 ## 3. Test Strategy
-* **Test Type:** Manual Black-Box Testing.
-* **Browsers:** Google Chrome (Latest Version), Firefox.
-* **Test Data:** Used provided test accounts (`standard_user`, `problem_user`, `locked_out_user`).
+* **Type:** Manual Testing (Black Box).
+* **Browsers:** Chrome (Latest version) and Firefox.
+* **Test Data:** I will use the standard accounts provided by the site (`standard_user`, `problem_user`, etc.).
 
-## 4. Entry & Exit Criteria
-* **Entry Criteria (Start):** The website https://www.saucedemo.com/ is accessible.
-* **Exit Criteria (Stop):** All critical test cases (Checkout flow) are executed. Major bugs are reported.
+## 4. When to start and stop?
+* **Entry Criteria (Start):** The website https://www.saucedemo.com/ is working and opens in the browser.
+* **Exit Criteria (Stop):** All important tests (Checkout flow) are done, and major bugs are reported.
