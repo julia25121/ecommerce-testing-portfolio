@@ -30,4 +30,4 @@ Testing functional flows of an online store:
 * **Platform:** Web (Desktop & Mobile view).
 
 ---
-*Created by [Julia Khokhlova] – Manual QA Engineer*
+*Created by Julia Khokhlova – Manual QA Engineer*
