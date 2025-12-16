@@ -2,32 +2,36 @@
 
 ![Status](https://img.shields.io/badge/Status-Active-success) ![Role](https://img.shields.io/badge/Role-Manual_QA-blue)
 
-## 📄 Project Overview
-This repository documents my practice in Manual Software Testing using the **Swag Labs (SauceDemo)** e-commerce website. 
+## 📄 About this Project
+This is my portfolio for Manual Software Testing. I used the **Swag Labs (SauceDemo)** website to practice my skills.
 
-The goal is to demonstrate a structured approach to the **Software Testing Life Cycle (STLC)**: from understanding requirements to executing test cases and reporting bugs. This project showcases my ability to work independently and maintain clear documentation.
+My goal is to show that I understand the full testing process (STLC). I wanted to demonstrate that I can:
+* Read and understand requirements.
+* Write clear test cases.
+* Find and report bugs.
+* Work independently.
 
-## 🎯 Scope of Work
-Testing functional flows of an online store:
-- **Smoke Testing** (Login functionality with different user roles)
-- **Functional Testing** (Cart, Inventory, Filters)
-- **End-to-End Testing** (Full Checkout process)
-- **UI/UX Checks**
+## 🎯 What did I test?
+I focused on the most important parts of an online store:
+- **Login:** Checking if different users can sign in (Smoke Testing).
+- **Shop Features:** Adding items to the cart, sorting products, and using filters.
+- **Buying:** The full process of buying an item (End-to-End Testing).
+- **UI/UX:** Checking if the site looks good and is easy to use.
 
-## 📂 Repository Structure
+## 📂 Project Structure
 | Folder | Description |
 |---|---|
-| **01_Requirements** | Analysis of the project scope and User Stories. |
-| **02_Test_Plan** | What to test, tools used, and entry/exit criteria. |
-| **03_Test_Cases** | Test scenarios with steps and expected results. |
-| **04_Bug_Reports** | Defect reports with screenshots and severity levels. |
-| **05_Test_Report** | Summary of testing results. |
+| **01_Requirements** | User Stories (What should the site do?). |
+| **02_Test_Plan** | My plan (What I will test and how). |
+| **03_Test_Cases** | Step-by-step instructions for testing. |
+| **04_Bug_Reports** | Bugs I found (with descriptions and severity). |
+| **05_Test_Report** | Final results of my testing. |
 
-## 🛠 Tools & Skills
-* **Documentation:** Writing clear Test Cases and Bug Reports.
-* **Techniques:** Boundary Value Analysis, Positive & Negative Testing.
-* **Tools:** Chrome DevTools, Screen capture tools.
-* **Platform:** Web (Desktop & Mobile view).
+## 🛠 My Skills & Tools
+* **Documentation:** I can write clear and easy-to-read Test Cases and Bug Reports.
+* **Techniques:** I use methods like Boundary Value Analysis (BVA) and Positive/Negative testing.
+* **Tools:** I use Chrome DevTools to check errors and take screenshots.
+* **Platform:** Web (Desktop and Mobile view).
 
 ---
 *Created by Julia Khokhlova – Manual QA Engineer*
