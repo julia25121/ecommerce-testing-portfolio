@@ -11,7 +11,7 @@ The objective of this Test Plan is to define the scope, approach, and resources 
 
 ## 2. Scope of Testing
 
-### ✅ In Scope (Що ми тестуємо)
+### ✅ In Scope 
 The following features will be tested functionally:
 1.  **Authentication:**
     * Login with valid/invalid credentials.
@@ -29,7 +29,7 @@ The following features will be tested functionally:
     * Overview page verification (Item total + Tax calculation).
     * Order completion ("Thank you" page).
 
-### ❌ Out of Scope (Що ми НЕ тестуємо)
+### ❌ Out of Scope 
 * **Performance Testing:** Load and Stress testing are not part of this iteration.
 * **Security Testing:** SQL Injection or Penetration testing.
 * **API Testing:** Backend verification is out of scope for this manual run.
